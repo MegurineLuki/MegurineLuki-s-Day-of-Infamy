@@ -1,0 +1,95 @@
+"HQ_Australian.RoundStart_Offensive_Attacking"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"hq/Australian/GameMode/offensive_new_attacking_roundstart1.ogg"
+		"wave"	"hq/Australian/GameMode/offensive_new_attacking_roundstart2.ogg"
+		"wave"	"hq/Australian/GameMode/offensive_new_attacking_roundstart3.ogg"
+	}
+}
+
+"HQ_Scottish.GameStart_Sabotage_Attacking"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"hq/Scottish/GameMode/sabotage_gamestart1.ogg"
+		"wave"	"hq/Scottish/GameMode/sabotage_gamestart2.ogg"
+	}
+}
+
+"HQ_Scottish.RoundStart_Sabotage_Attacking"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"	"1.00"
+	
+	"rndwave"
+	{
+		"wave"	"hq/Scottish/GameMode/sabotage_roundstart1.ogg"
+		"wave"	"hq/Scottish/GameMode/sabotage_roundstart2.ogg"
+		"wave"	"hq/Scottish/GameMode/sabotage_roundstart3.ogg"
+	}
+}
+
+"Radial_Australian.Supp_RequestCarpetBomb"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_90dB"
+	"volume"	"0.5"
+	
+	"rndwave"
+	{
+		"wave"	"player/voice/radial/australian/Suppressed/requestcarpetbombing1.ogg"
+		"wave"	"player/voice/radial/australian/Suppressed/requestcarpetbombing2.ogg"
+	}
+	
+	"operator_stacks"
+	{
+		"dummy_precache"
+		{
+			"entry_name"	"Radial_Australian.Supp_RequestCarpetBomb_Radio"
+		}
+	}
+}
+
+"Radial_Australian.Supp_RequestCarpetBomb_Radio"
+{
+	"channel"	"CHAN_VOICE"
+	"soundlevel"	"SNDLVL_TALKING"
+	"volume"	"1.0"
+	
+	"rndwave"
+	{
+		"wave"	"player/voice/radial/australian/Suppressed/requestcarpetbombing_radio1.ogg"
+		"wave"	"player/voice/radial/australian/Suppressed/requestcarpetbombing_radio2.ogg"
+	}
+}
+
+"Weapon_m1paratrooper.Melee"
+{
+	"channel"	"CHAN_STATIC"
+	"pitch"	"PITCH_NORM"
+	"soundlevel"	"SNDLVL_65dB"
+	"volume"	"0.3"
+	
+	"rndwave"
+	{
+		"wave"	"weapons/universal/weapon_melee_01.wav"
+		"wave"	"weapons/universal/weapon_melee_02.wav"
+		"wave"	"weapons/universal/weapon_melee_03.wav"
+		"wave"	"weapons/universal/weapon_melee_04.wav"
+		"wave"	"weapons/universal/weapon_melee_05.wav"
+		"wave"	"weapons/universal/weapon_melee_06.wav"
+	}
+}

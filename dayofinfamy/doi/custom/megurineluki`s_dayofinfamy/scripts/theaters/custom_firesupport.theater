@@ -1,0 +1,100 @@
+"#base"	"default_firesupport.theater"
+
+"theater"
+{
+	"firesupport"
+	{
+		"firesupport_strafe"
+		{
+			"CAS"
+			{
+				"Mustang"
+				{
+					"Weapons"
+					{
+						"MachineGuns"
+						{
+							"Bullet"	"firesupport_strafe"
+							"DistanceBetweenShots"	"200"
+							"Spread"	"200"
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	"ammo"
+	{
+		"firesupport_strafe"
+		{
+			"entity_class"	"default"
+			"DamageCustomType"	"INS_DMG_CUSTOM_FIRESUPPORT"
+			"DamageType"	"DMG_BLAST"
+			"custom_impact"	"ImpactAircraftMG"
+			"splash_damage"	"0.75"
+			"splash_radius"	"200"
+			
+			"Damage"
+			{
+				"0"	"240"
+			}
+			
+			"PenetrationPower"
+			{
+				"0"	"1000"
+			}
+			
+			"PenetrationDamage"
+			{
+				"0"	"1"
+			}
+		}
+	}
+	
+	"explosives"
+	{
+		"artillery_base_firesupport"
+		{
+			"IsBase"	"1"
+		}
+		
+		"rocket_base_firesupport"
+		{
+			"IsBase"	"1"
+		}
+		
+		"rocket_strafe"
+		{
+			"DetonateDamage"	"240"
+			"DetonateDamageRadius"	"1000"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1000"
+		}
+		
+		"bomb_stuka"
+		{
+			"DetonateDamage"	"400"
+			"DetonateDamageRadius"	"1200"
+			"DetonatePenetrationRadius"	"480"
+			"ShakeAmplitude"	"400"
+			"ShakeFrequency"	"120"
+			"ShakeRadius"	"1200"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"bomb_carpetbomb"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+	}
+}

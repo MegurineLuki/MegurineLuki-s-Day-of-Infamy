@@ -1,0 +1,31 @@
+"#base"	"default_plantables.theater"
+
+"theater"
+{
+	"plantables"
+	{
+		"precache_01"
+		{
+			"planning"
+			{
+				"model"	"models/static_props/crate_resupply_us.mdl"
+			}
+		}
+		
+		"precache_02"
+		{
+			"planning"
+			{
+				"model"	"models/static_props/crate_resupply_ger.mdl"
+			}
+		}
+		
+		"precache_03"
+		{
+			"planning"
+			{
+				"model"	"models/static_props/parachute_resupply.mdl"
+			}
+		}
+	}
+}

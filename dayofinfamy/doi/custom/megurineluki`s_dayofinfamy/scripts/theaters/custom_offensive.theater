@@ -1,0 +1,289 @@
+"#base"	"custom.theater"
+
+"theater"
+{
+	"teams"
+	{
+		"americans"
+		{
+			"squads"
+			{
+				"#squad_american"
+				{
+					"size"	"20"
+					"ai_squad"	"0"
+					"human_squad"	"1"
+					
+					"classes"
+					{
+						"template_american_officer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_communications"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_rifleman"	"-1"
+						
+						"template_american_assault"
+						{
+							"min"	"2"
+							"max"	"3"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_support"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_flamethrower"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_engineer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_machinegunner"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_american_sniper"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+					}
+				}
+				
+				"#squad_american"
+				{
+					"size"	"20"
+					"ai_squad"	"1"
+					"human_squad"	"0"
+					
+					"classes"
+					{
+						"template_american_officer"	"2"
+						"template_american_communications"	"2"
+						"template_american_rifleman"	"-1"
+						"template_american_assault"	"3"
+						"template_american_support"	"2"
+						"template_american_flamethrower"	"2"
+						"template_american_engineer"	"2"
+						"template_american_machinegunner"	"2"
+						"template_american_sniper"	"2"
+					}
+				}
+			}
+		}
+		
+		"commonwealth"
+		{
+			"squads"
+			{
+				"#squad_commonwealth"
+				{
+					"size"	"20"
+					"ai_squad"	"0"
+					"human_squad"	"1"
+					
+					"classes"
+					{
+						"template_british_officer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_communications"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_rifleman"	"-1"
+						
+						"template_british_assault"
+						{
+							"min"	"2"
+							"max"	"3"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_support"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_flamethrower"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_engineer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_machinegunner"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_british_sniper"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+					}
+				}
+				
+				"#squad_commonwealth"
+				{
+					"size"	"20"
+					"ai_squad"	"1"
+					"human_squad"	"0"
+					
+					"classes"
+					{
+						"template_british_officer"	"2"
+						"template_british_communications"	"2"
+						"template_british_rifleman"	"-1"
+						"template_british_assault"	"3"
+						"template_british_support"	"2"
+						"template_british_flamethrower"	"2"
+						"template_british_engineer"	"2"
+						"template_british_machinegunner"	"2"
+						"template_british_sniper"	"2"
+					}
+				}
+			}
+		}
+		
+		"axis"
+		{
+			"squads"
+			{
+				"#squad_german"
+				{
+					"size"	"20"
+					"ai_squad"	"0"
+					"human_squad"	"1"
+					
+					"classes"
+					{
+						"template_german_officer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_communications"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_rifleman"	"-1"
+						
+						"template_german_assault"
+						{
+							"min"	"2"
+							"max"	"3"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_support"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_flamethrower"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_engineer"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_machinegunner"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+						
+						"template_german_sniper"
+						{
+							"min"	"1"
+							"max"	"2"
+							"max_threshold"	"12"
+						}
+					}
+				}
+				
+				"#squad_german"
+				{
+					"size"	"20"
+					"ai_squad"	"1"
+					"human_squad"	"0"
+					
+					"classes"
+					{
+						"template_german_officer"	"2"
+						"template_german_communications"	"2"
+						"template_german_rifleman"	"-1"
+						"template_german_assault"	"3"
+						"template_german_support"	"2"
+						"template_german_flamethrower"	"2"
+						"template_german_engineer"	"2"
+						"template_german_machinegunner"	"2"
+						"template_german_sniper"	"2"
+					}
+				}
+			}
+		}
+	}
+}

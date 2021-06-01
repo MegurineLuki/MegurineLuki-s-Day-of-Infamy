@@ -1,0 +1,1670 @@
+"#base"	"default_unlocks_americans.theater"
+"#base"	"default_unlocks_axis.theater"
+"#base"	"default_unlocks_commonwealth.theater"
+"#base"	"default_unlocks_weapons.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_brassknuckles"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"2"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_etool_us"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"1"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_etool_brit"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"1"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_fairbairn"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"2"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_hatchet"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"1"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_etool"
+		{
+			"unlock"	"0"
+			"weapon_cost"	"1"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+		
+		"weapon_gravityknife"
+		{
+			"act_table"	"knife"
+			"unlock"	"0"
+			"weapon_cost"	"2"
+			
+			"melee"
+			{
+				"MeleeDamage"	"100"
+			}
+		}
+	}
+	
+	"weapon_upgrades"
+	{
+		"clothwrap_springfield"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"clothwrap_m1garand"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"clothwrap_enfield"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"clothwrap_k98"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"clothwrap_g43"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"cosmetic_springfield_worn"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"cosmetic_m1garand_worn"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"cosmetic_enfield_veteran"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"cosmetic_k98_veteran"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+		
+		"cosmetic_g43_worn"
+		{
+			"unlock"	"0"
+			"upgrade_cost"	"1"
+		}
+	}
+	
+	"unlocks"
+	{
+		"unlock_cosmetic_springfield_worn"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_springfield"	""
+				}
+			}
+		}
+		
+		"unlock_cosmetic_m1garand_worn"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_m1garand"	""
+				}
+			}
+		}
+		
+		"unlock_cosmetic_enfield_veteran"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_enfield"	""
+				}
+			}
+		}
+		
+		"unlock_cosmetic_k98_veteran"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_k98"	""
+				}
+			}
+		}
+		
+		"unlock_cosmetic_g43_worn"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_g43"	""
+				}
+			}
+		}
+		
+		"unlock_clothwrap_springfield"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_springfield"	""
+				}
+			}
+		}
+		
+		"unlock_clothwrap_m1garand"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_m1garand"	""
+				}
+			}
+		}
+		
+		"unlock_clothwrap_enfield"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_enfield"	""
+				}
+			}
+		}
+		
+		"unlock_clothwrap_k98"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_k98"	""
+				}
+			}
+		}
+		
+		"unlock_clothwrap_g43"
+		{
+			"inventory"
+			{
+				"replacements"
+				{
+					"weapon_g43"	""
+				}
+			}
+		}
+		
+		"unit_american_usarmy"
+		{
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_american_1stinfantry"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"helmet"	"models/characters/american/american_helmet_net.mdl"
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"decals"	"2"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"model"	"models/characters/american/player_american_07.mdl"
+					}
+					
+					"template_american_communications"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_3rddivision"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"model"	"models/characters/american/player_american_07.mdl"
+					}
+					
+					"template_american_assault"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_28thdivision"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"model"	"models/characters/american/player_american_07.mdl"
+					}
+					
+					"template_american_communications"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_support"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_29thinfantry"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_american_ranger"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"model"	"models/characters/american/player_american_07.mdl"
+					}
+					
+					"template_american_communications"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_sniper"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_2ndrangers"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"helmet"	"models/characters/american/american_helmet_net.mdl"
+				"model"	"models/characters/american/player_american_07.mdl"
+				
+				"bodygroups"
+				{
+					"decals"	"4"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"model"	"models/characters/american/player_american_07.mdl"
+						
+						"bodygroups"
+						{
+							"decals"	"6"
+						}
+					}
+					
+					"template_american_communications"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_sniper"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_82ndairborne"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"helmet"	"models/characters/american/american_airborne_helmet_camo.mdl"
+				"uniform"	"models/player/american/american_clothes_airborne"
+				"viewmodel_skin"	"0"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_communications"
+					{
+						"?has_m1para_access"
+						{
+							"buy_order"
+							{
+								"weapon"	""
+								"gear"	""
+							}
+						}
+					}
+					
+					"template_american_rifleman"
+					{
+						"model"	"models/characters/american/player_american_airborne_06.mdl"
+					}
+					
+					"template_american_assault"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_support"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_airborne_08.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_airborne_09.mdl"
+					}
+					
+					"template_american_machinegunner"
+					{
+						"model"	"models/characters/american/player_american_airborne_05.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+				}
+			}
+		}
+		
+		"unit_american_101stairborne"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/american/player_american_airborne_07.mdl"
+				"uniform"	"models/player/american/american_clothes_airborne"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_american_officer"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_communications"
+					{
+						"?has_m1para_access"
+						{
+							"buy_order"
+							{
+								"weapon"	""
+								"gear"	""
+							}
+						}
+					}
+					
+					"template_american_rifleman"
+					{
+						"model"	"models/characters/american/player_american_airborne_06.mdl"
+					}
+					
+					"template_american_assault"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_support"
+					{
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+					
+					"template_american_flamethrower"
+					{
+						"model"	"models/characters/american/player_american_airborne_08.mdl"
+					}
+					
+					"template_american_engineer"
+					{
+						"model"	"models/characters/american/player_american_airborne_09.mdl"
+					}
+					
+					"template_american_machinegunner"
+					{
+						"model"	"models/characters/american/player_american_airborne_05.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"1"
+						}
+					}
+				}
+			}
+		}
+		
+		"unit_american_92ndinfantry"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_american_761blackpanther"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_commonwealth_british"
+		{
+			"Character"
+			{
+				"model"	"models/characters/british/player_british_08.mdl"
+				"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_commonwealth_grenadier"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_commonwealth_fusilier"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_highlander"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_no2commando"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/british/player_british_08.mdl"
+				"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_commonwealth_blackwatch"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"patch"	"0"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_flamethrower"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_canada"
+		{
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_argyll"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_seaforth"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_princess_patricia"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_royal_hamilton"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_loyal_edmonton"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_australian"
+		{
+			"Character"
+			{
+				"bodygroups"
+				{
+					"patch"	"10"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_17thaustralian"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_support"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_12thfrontier"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"uniform"	"models/player/british/british_gear_indian"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_british_communications"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+					}
+					
+					"template_british_rifleman"
+					{
+						"uniform"	"models/player/british/british_gear_indian"
+					}
+					
+					"template_british_assault"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+						"uniform"	"models/player/british/british_gear_indian_blue"
+					}
+					
+					"template_british_support"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+					}
+					
+					"template_british_flamethrower"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+					}
+					
+					"template_british_engineer"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+					}
+					
+					"template_british_machinegunner"
+					{
+						"helmet"	""
+						"model"	"models/characters/british/units/player_indian.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_wehrmacht"
+		{
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_07.mdl"
+				
+				"bodygroups"
+				{
+					"patch"	"1"
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_officer"
+					{
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+				}
+			}
+		}
+		
+		"unit_german_1stinfantry"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_flamethrower"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_352infanterie"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_01.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_officer"
+					{
+						"uniform"	"models/player/german/german_clothes_green"
+					}
+					
+					"template_german_flamethrower"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_1stpanzer"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/units/player_german_panzer_07.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_german_3rdpanzer"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/units/player_german_panzer_07.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_german_15thpanzer"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/units/player_german_panzer_07.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_german_17thpanzer"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/units/player_german_panzer_07.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+			}
+		}
+		
+		"unit_german_29thpanzer"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_01.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_flamethrower"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_fallschirmjager"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_paratrooper_07.mdl"
+				"uniform"	"models/player/german/german_clothes_paratrooper"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_officer"
+					{
+						"helmet"	"models/characters/german/german_helmet_paratrooper.mdl"
+					}
+					
+					"template_german_communications"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_06.mdl"
+					}
+					
+					"template_german_flamethrower"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_09.mdl"
+					}
+					
+					"template_german_engineer"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_05.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_3rdfallschirmjager"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_paratrooper_07.mdl"
+				"uniform"	"models/player/german/german_clothes_paratrooper_camo"
+				
+				"bodygroups"
+				{
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_officer"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_07.mdl"
+					}
+					
+					"template_german_rifleman"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_01.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_272grenadier"
+		{
+			"default"	"1"
+			
+			"Character"
+			{
+				"model"	"models/characters/german/player_german_01.mdl"
+				
+				"bodygroups"
+				{
+					"pouches"	"1"
+					"rank"	"1"
+				}
+				
+				"class_replacements"
+				{
+					"template_german_officer"
+					{
+						"uniform"	"models/player/german/camouflage/german_camo_coniferous"
+					}
+					
+					"template_german_flamethrower"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_sniper"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+	}
+}

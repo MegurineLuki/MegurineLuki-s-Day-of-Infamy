@@ -1,0 +1,1287 @@
+"#base"	"default_weapon_american.theater"
+"#base"	"default_weapon_commonwealth.theater"
+"#base"	"default_weapon_german.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_binoculars_american"
+		{
+			"weapon_cost"	"5"
+			"weapon_weight"	"1"
+		}
+		
+		"weapon_binoculars_british"
+		{
+			"weapon_cost"	"5"
+			"weapon_weight"	"1"
+		}
+		
+		"weapon_binoculars_german"
+		{
+			"weapon_cost"	"5"
+			"weapon_weight"	"1"
+		}
+		
+		"weapon_flamethrower_american"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"8"
+			"weapon_weight"	"256"
+		}
+		
+		"weapon_flamethrower_british"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"8"
+			"weapon_weight"	"256"
+		}
+		
+		"weapon_flamethrower_german"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"8"
+			"weapon_weight"	"256"
+		}
+		
+		"weapon_smoke"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_no79"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_nebelhandgranate"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"16"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"grenade_nebelhandgranate"
+			}
+		}
+		
+		"weapon_mk2"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_no36"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_stielhandgranate"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_no77"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_no69"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_splintering"
+		{
+			"weapon_cost"	"4"
+			"weapon_weight"	"16"
+		}
+		
+		"weapon_tnt"
+		{
+			"weapon_cost"	"4"
+			"weapon_max_subslot"	"-1"
+			"weapon_weight"	"32"
+		}
+		
+		"weapon_sprengbuchse"
+		{
+			"weapon_cost"	"4"
+			"weapon_max_subslot"	"-1"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"grenade_sprengbuchse"
+			}
+		}
+		
+		"weapon_bazooka"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"6"
+			"weapon_weight"	"128"
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_panzerschreck"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"6"
+			"weapon_weight"	"128"
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_piat"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"6"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"clip_default"	"2"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_panzerfaust"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"5"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"rocket_panzerfaust"
+				"clip_default"	"0"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_rifle_grenade_springfield"
+		{
+			"barrel_length"	"40"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"clip_default"	"0"
+			}
+		}
+		
+		"weapon_rifle_grenade"
+		{
+			"barrel_length"	"40"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"clip_default"	"0"
+			}
+		}
+		
+		"weapon_rifle_grenade_k98"
+		{
+			"barrel_length"	"40"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"clip_default"	"0"
+			}
+		}
+		
+		"weapon_webley"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_webley"
+				"clip_default"	"12"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_sw1917"
+		{
+			"rounds_per_minute"	"380"
+			"weapon_cost"	"3"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_sw1917"
+				"clip_default"	"12"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_ithaca"
+		{
+			"barrel_length"	"24"
+			"closed_bolt"	"0"
+			"weapon_cost"	"4"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_ithaca"
+				"clip_max_rounds"	"8"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_springfield"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"1"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_springfield"
+				"clip_default"	"15"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0.08 0.08 0.08"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_enfield"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"1"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_enfield"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0.08 0.08 0.08"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_k98"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"1"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"ammo_k98"
+				"clip_default"	"15"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0.08 0.08 0.08"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_browninghp"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_browninghp"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_luger"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_luger"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_p38"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_p38"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_ppk"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_ppk"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_c96"
+		{
+			"weapon_cost"	"3"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_c96"
+				"lose_rounds_reload"	"1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeWeaponIdleTime"	"0.3"
+			}
+		}
+		
+		"weapon_welrod"
+		{
+			"weapon_cost"	"1"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_welrod"
+				"clip_default"	"2"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.48 0.48 0.48"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_m1911"
+		{
+			"weapon_cost"	"2"
+			"weapon_weight"	"32"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1911"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.96 0.96 0.96"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_sten_mk2"
+		{
+			"weapon_cost"	"4"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_sten_mk2"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_sten_mk5"
+		{
+			"weapon_cost"	"6"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_sten_mk5"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_owen"
+		{
+			"weapon_cost"	"6"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_owen"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_mp40"
+		{
+			"weapon_cost"	"4"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mp40"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_c96carbine"
+		{
+			"weapon_cost"	"6"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_c96carbine"
+			}
+			
+			"ballistics"
+			{
+				"spread"	"0.8 0.8 0.8"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_m3greasegun"
+		{
+			"weapon_cost"	"4"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m3greasegun"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.8 0.8 0.8"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_thompson_m1a1"
+		{
+			"weapon_cost"	"6"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_thompson_m1a1"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_thompson_m1928a1"
+		{
+			"weapon_cost"	"6"
+			"weapon_weight"	"64"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_thompson_m1928a1"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_m1carbine"
+		{
+			"barrel_length"	"24"
+			"weapon_cost"	"4"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1carbine"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_m1paratrooper"
+		{
+			"barrel_length"	"24"
+			"weapon_cost"	"4"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1paratrooper"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"8000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_stg44"
+		{
+			"barrel_length"	"24"
+			"weapon_class"	"smg"
+			"weapon_cost"	"6"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_stg44"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"12000"
+				"spread"	"0.64 0.64 0.64"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_m1garand"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"4"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1garand"
+				"clip_default"	"3"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.08 0.08 0.08"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_bar"
+		{
+			"act_table"	"rifle_fal"
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			"weapon_cost"	"6"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_bar"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_m1919"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"8"
+			"weapon_class"	"smg"
+			"weapon_weight"	"256"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_m1919"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.24 0.24 0.24"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_bren_mk2"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			"weapon_cost"	"6"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_bren_mk2"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_lewis"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			"weapon_cost"	"8"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_lewis"
+				"clip_default"	"1"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.24 0.24 0.24"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_vickers"
+		{
+			"barrel_length"	"40"
+			"closed_bolt"	"0"
+			"weapon_cost"	"8"
+			"weapon_class"	"smg"
+			"weapon_weight"	"256"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_vickers"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.24 0.24 0.24"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+				"MeleeRange"	"75"
+			}
+		}
+		
+		"weapon_g43"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"6"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_g43"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.08 0.08 0.08"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_fg42"
+		{
+			"barrel_length"	"32"
+			"weapon_class"	"smg"
+			"weapon_cost"	"8"
+			"weapon_weight"	"128"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_fg42"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.16 0.16 0.16"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_mg34"
+		{
+			"barrel_length"	"32"
+			"weapon_cost"	"6"
+			"weapon_class"	"smg"
+			"weapon_weight"	"160"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mg34"
+				"clip_default"	"1"
+			}
+			
+			"ballistics"
+			{
+				"FireModes"	"full"
+				"maxrange"	"20000"
+				"spread"	"0.24 0.24 0.24"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+		
+		"weapon_mg42"
+		{
+			"barrel_length"	"40"
+			"weapon_cost"	"8"
+			"weapon_class"	"smg"
+			"weapon_weight"	"256"
+			
+			"ammo_clip"
+			{
+				"ammo_type"	"magazine_mg42"
+			}
+			
+			"ballistics"
+			{
+				"maxrange"	"20000"
+				"spread"	"0.24 0.24 0.24"
+			}
+			
+			"melee"
+			{
+				"MeleeDamage"	"60"
+			}
+		}
+	}
+	
+	"explosives"
+	{
+		"grenade_ignited_fuel_tank"
+		{
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_smoke"
+		{
+			"RocketStartSpeed"	"2000"
+		}
+		
+		"grenade_no79"
+		{
+			"Cookable"	"0"
+			"RocketStartSpeed"	"2000"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_smoke_nebelhandgranate"
+		{
+			"RocketStartSpeed"	"2000"
+		}
+		
+		"grenade_no36"
+		{
+			"DetonateDamage"	"120"
+			"DetonateDamageRadius"	"900"
+			"ShakeRadius"	"900"
+		}
+		
+		"grenade_stielhandgranate"
+		{
+			"ShakeAmplitude"	"200"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"Weapon_stielhandgranate.ExplodeWater"
+			}
+		}
+		
+		"grenade_no77"
+		{
+			"AreaDamageAmount"	"36"
+			"AreaDamageFrequency"	"0.44"
+			"AreaDamageGrowSpeed"	"9"
+			"AreaDamageMaxRadius"	"260"
+			"AreaDamageMinRadius"	"240"
+			"AreaDamageTime"	"12"
+			"DamageType"	"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"	"100"
+			"DetonatePenetrationRadius"	"0"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketStartSpeed"	"2000"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_no69"
+		{
+			"DetonateDamageRadius"	"600"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_splintering"
+		{
+			"DetonateDamage"	"140"
+			"DetonateDamageRadius"	"900"
+			"DetonatePenetrationRadius"	"40"
+			"Model"	"models/weapons/w_splintering_stielhandgranate.mdl"
+			"ShakeAmplitude"	"200"
+			"ShakeDuration"	"2"
+			"ShakeRadius"	"900"
+			"SuppressionHoldTime"	"0"
+			
+			"Sounds"
+			{
+				"DetonateWaterSound"	"Weapon_splinteringstielhandgranate.ExplodeWater"
+			}
+		}
+		
+		"grenade_tnt"
+		{
+			"DetonateDamage"	"300"
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"240"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeRadius"	"750"
+		}
+		
+		"grenade_sprengbuchse"
+		{
+			"DetonateDamage"	"300"
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"240"
+			"ShakeAmplitude"	"400"
+			"ShakeDuration"	"2"
+			"ShakeRadius"	"750"
+		}
+		
+		"rocket_bazooka"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"RocketTopSpeed"	"2500"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+		
+		"rocket_bazooka_wp"
+		{
+			"DetonateDamage"	"0"
+			"DetonateDamageRadius"	"0"
+			"DetonatePenetrationRadius"	"0"
+			"RocketTopSpeed"	"2500"
+			"ShakeAmplitude"	"0"
+			"ShakeDuration"	"0"
+			"ShakeFrequency"	"0"
+			"ShakeRadius"	"0"
+			
+			"Sounds"
+			{
+				"DetonateSound"	""
+			}
+		}
+		
+		"grenade_wp_bazooka"
+		{
+			"AreaDamageAmount"	"36"
+			"AreaDamageFrequency"	"0.44"
+			"AreaDamageGrowSpeed"	"9"
+			"AreaDamageMaxRadius"	"260"
+			"AreaDamageMinRadius"	"240"
+			"AreaDamageTime"	"12"
+			"DamageType"	"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"	"100"
+			"DetonateDamageRadius"	"240"
+			"DetonatePenetrationRadius"	"0"
+			"Elasticity"	"0"
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+		}
+		
+		"rocket_panzerschreck"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"RocketTopSpeed"	"2500"
+			"RocketWobble"	"1"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+		
+		"mortar_piat"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketTopSpeed"	"2000"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+		
+		"rocket_panzerfaust"
+		{
+			"DetonateDamage"	"180"
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"Model"	"models/weapons/w_panzerfaust_projectile.mdl"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketAcceleration"	"1000"
+			"RocketStartSpeed"	"2000"
+			"RocketTopSpeed"	"2000"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+			
+			"Particles"
+			{
+				"DetonateParticle"	"doi_mortar_explosion"
+				"DetonateWaterParticle"	"ins_water_explosion"
+			}
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+ 		
+		"grenade_rifle_springfield"
+		{
+			"DetonateDamageRadius"	"600"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketStartSpeed"	"2000"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_rifle_enfield"
+		{
+			"DetonateDamageRadius"	"600"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketStartSpeed"	"2000"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_rifle_k98"
+		{
+			"DetonateDamageRadius"	"600"
+			"ReactBullets"	"0"
+			"ReactExplosions"	"0"
+			"RocketStartSpeed"	"2000"
+			"ShakeRadius"	"600"
+			
+			"Sounds"
+			{
+				"BounceSound"	""
+			}
+		}
+		
+		"grenade_mortar"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactExplosions"	"0"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+		
+		"grenade_mortar_german"
+		{
+			"DetonateDamageRadius"	"750"
+			"DetonatePenetrationRadius"	"200"
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactExplosions"	"0"
+			"ShakeAmplitude"	"400"
+			"ShakeRadius"	"750"
+		}
+		
+		"grenade_mortarsmoke"
+		{
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactExplosions"	"0"
+		}
+		
+		"grenade_mortarsmoke_german"
+		{
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactExplosions"	"0"
+		}
+		
+		"grenade_mortarincendiary"
+		{
+			"AreaDamageAmount"	"36"
+			"AreaDamageFrequency"	"0.44"
+			"AreaDamageGrowSpeed"	"9"
+			"AreaDamageMaxRadius"	"260"
+			"AreaDamageMinRadius"	"240"
+			"AreaDamageTime"	"12"
+			"DamageType"	"DMG_BURN, DMG_PREVENT_PHYSICS_FORCE"
+			"DetonateDamage"	"100"
+			"DetonateDamageRadius"	"240"
+			"DetonatePenetrationRadius"	"0"
+			"Model"	"models/weapons/w_projectile_eintoss.mdl"
+			"ReactExplosions"	"0"
+			"SuppressionHoldTime"	"0.5"
+		}
+	}
+}

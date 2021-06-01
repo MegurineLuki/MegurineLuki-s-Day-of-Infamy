@@ -1,0 +1,103 @@
+"#base"	"default_gear.theater"
+
+"theater"
+{
+	"player_gear"
+	{
+		"american_light_kit"
+		{
+			"gear_cost"	"2"
+			"gear_weight"	"32"
+		}
+		
+		"american_heavy_kit"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"64"
+			
+			"extra_ammo"
+			{
+				"explosive"
+				{
+					"0"	"0"
+					"1"	"1"
+				}
+			}
+		}
+		
+		"commonwealth_light_kit"
+		{
+			"gear_cost"	"2"
+			"gear_weight"	"32"
+		}
+		
+		"commonwealth_heavy_kit"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"64"
+			
+			"extra_ammo"
+			{
+				"explosive"
+				{
+					"0"	"0"
+					"1"	"1"
+				}
+			}
+		}
+		
+		"german_light_kit"
+		{
+			"gear_cost"	"2"
+			"gear_weight"	"32"
+		}
+		
+		"german_heavy_kit"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"64"
+			
+			"extra_ammo"
+			{
+				"explosive"
+				{
+					"0"	"0"
+					"1"	"1"
+				}
+			}
+		}
+		
+		"gear_radio"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"1"
+		}
+		
+		"gear_radio_commonwealth"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"1"
+		}
+		
+		"gear_radio_german"
+		{
+			"gear_cost"	"5"
+			"gear_weight"	"1"
+		}
+		
+		"gear_fuel_tank_american"
+		{
+			"gear_weight"	"1"
+		}
+		
+		"gear_fuel_tank"
+		{
+			"gear_weight"	"1"
+		}
+		
+		"gear_fuel_tank_german"
+		{
+			"gear_weight"	"1"
+		}
+	}
+}

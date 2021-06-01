@@ -1,0 +1,7357 @@
+"theater"
+{
+	"player_templates"
+	{
+		"template_american_officer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"squad_leader"	"1"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_smoke"
+				"weapon"	"weapon_smoke"
+				"weapon"	"weapon_binoculars_american"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_smoke"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_communications_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_smoke"
+				"weapon"	"weapon_smoke"
+				"gear"	"american_heavy_kit"
+				"gear"	"gear_radio"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_smoke"
+				"gear"	"gear_radio"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_rifleman_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1garand"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1garand"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_assault_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m3greasegun"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m3greasegun"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_support_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_bar"
+				"weapon"	"weapon_smoke"
+				"weapon"	"weapon_smoke"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_bar"
+				"weapon"	"weapon_smoke"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_flamethrower_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_flamethrower_american"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+				"gear"	"gear_fuel_tank_american"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_flamethrower_american"
+				"weapon"	"weapon_mk2"
+				"gear"	"gear_fuel_tank_american"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_engineer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_bazooka"
+				"weapon"	"weapon_tnt"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_tnt"
+				"weapon"	"weapon_bazooka"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_machinegunner_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1919"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1919"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_sniper_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_mk2"
+				"weapon_upgrade"	"optic_scope_7x"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_officer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"squad_leader"	"1"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_thompson_m1928a1"
+				"weapon_upgrade"	"magazine_extended_thompson_50rd"
+				"weapon"	"weapon_no79"
+				"weapon"	"weapon_no79"
+				"weapon"	"weapon_binoculars_british"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1928a1"
+				"weapon"	"weapon_no79"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_communications_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no79"
+				"weapon"	"weapon_no79"
+				"gear"	"commonwealth_heavy_kit"
+				"gear"	"gear_radio_commonwealth"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no79"
+				"gear"	"gear_radio_commonwealth"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_rifleman_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	"magazine_stripper_clips"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_assault_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_support_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_bren_mk2"
+				"weapon"	"weapon_no79"
+				"weapon"	"weapon_no79"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_bren_mk2"
+				"weapon"	"weapon_no79"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_flamethrower_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_flamethrower_british"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+				"gear"	"gear_fuel_tank"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_flamethrower_british"
+				"weapon"	"weapon_no36"
+				"gear"	"gear_fuel_tank"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_engineer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	"magazine_stripper_clips"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_piat"
+				"weapon"	"weapon_tnt"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_tnt"
+				"weapon"	"weapon_piat"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_machinegunner_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_vickers"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_vickers"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_british_sniper_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	"optic_scope_7x"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_no36"
+				"weapon_upgrade"	"optic_scope_7x"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_officer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"squad_leader"	"1"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_nebelhandgranate"
+				"weapon"	"weapon_nebelhandgranate"
+				"weapon"	"weapon_binoculars_german"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_nebelhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_communications_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_nebelhandgranate"
+				"weapon"	"weapon_nebelhandgranate"
+				"gear"	"german_heavy_kit"
+				"gear"	"gear_radio_german"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_nebelhandgranate"
+				"gear"	"gear_radio_german"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_rifleman_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon_upgrade"	"magazine_stripper_clips"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_assault_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_support_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mg34"
+				"weapon"	"weapon_nebelhandgranate"
+				"weapon"	"weapon_nebelhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mg34"
+				"weapon"	"weapon_nebelhandgranate"
+				
+				"?has_fg42_access"
+				{
+					"weapon"	"weapon_fg42"
+				}
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_flamethrower_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_flamethrower_german"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+				"gear"	"gear_fuel_tank_german"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_flamethrower_german"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"gear_fuel_tank_german"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_engineer_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon_upgrade"	"magazine_stripper_clips"
+				"weapon_upgrade"	"barrel_greased_bolt"
+				"weapon"	"weapon_panzerschreck"
+				"weapon"	"weapon_sprengbuchse"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_sprengbuchse"
+				"weapon"	"weapon_panzerschreck"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_machinegunner_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mg42"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mg42"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_sniper_coop"
+		{
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon_upgrade"	"optic_scope_4x"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon_upgrade"	"optic_scope_4x"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_general_coop"
+		{
+			"assassination_target"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1911"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1911"
+			}
+		}
+		
+		"template_british_general_coop"
+		{
+			"assassination_target"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_browninghp"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_browninghp"
+			}
+		}
+		
+		"template_german_general_coop"
+		{
+			"assassination_target"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_luger"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_luger"
+			}
+		}
+		
+		"template_american_usarmy_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_usarmy"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_usarmy_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_usarmy"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_1stinfantry_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_1stinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_1stinfantry_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_1stinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_3rddivision_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_3rddivision"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_3rddivision_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_3rddivision"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_28thdivision_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_28thdivision"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_28thdivision_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_28thdivision"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_29thinfantry_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_29thinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_29thinfantry_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_29thinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_ranger_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_ranger"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_ranger_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_ranger"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_2ndrangers_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_2ndrangers"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_2ndrangers_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_2ndrangers"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_82ndairborne_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_82ndairborne"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"?has_m1para_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_garand_bayonet"
+					"weapon"	"weapon_m1paratrooper"
+					"weapon"	"weapon_mk2"
+					"weapon"	"weapon_mk2"
+					"gear"	"american_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_82ndairborne_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_82ndairborne"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_101stairborne_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_101stairborne"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"?has_m1para_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_garand_bayonet"
+					"weapon"	"weapon_m1paratrooper"
+					"weapon"	"weapon_mk2"
+					"weapon"	"weapon_mk2"
+					"gear"	"american_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_101stairborne_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_101stairborne"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_92ndinfantry_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_92ndinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_92ndinfantry_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_92ndinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_761blackpanther_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_761blackpanther"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_american_761blackpanther_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"american01"
+			"unit"	"unit_american_761blackpanther"
+			
+			"models"
+			{
+				"player"	"models/characters/american/player_american_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_us.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_mk2"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_garand_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_british_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_british"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_british_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_british"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_grenadier_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_grenadier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_grenadier_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_grenadier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_fusilier_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_fusilier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_fusilier_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_fusilier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_highlander_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_highlander"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_highlander_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_highlander"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_no2commando_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_no2commando"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_no2commando_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_no2commando"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_blackwatch_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_blackwatch"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_blackwatch_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_blackwatch"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_canada_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_canada"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_canada_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_canada"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_argyll_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_argyll"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_argyll_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_argyll"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_seaforth_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_seaforth"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_seaforth_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_seaforth"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_princess_patricia_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_princess_patricia"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_princess_patricia_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_princess_patricia"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_royal_hamilton_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_royal_hamilton"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_royal_hamilton_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_royal_hamilton"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_loyal_edmonton_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_loyal_edmonton"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_loyal_edmonton_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_loyal_edmonton"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_australian_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_australian"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_australian_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_australian"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"?has_owen_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_enfield_bayonet"
+					"weapon"	"weapon_owen"
+					"weapon"	"weapon_no36"
+					"weapon"	"weapon_no36"
+					"gear"	"commonwealth_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_17thaustralian_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_17thaustralian"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_17thaustralian_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_17thaustralian"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"?has_owen_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_enfield_bayonet"
+					"weapon"	"weapon_owen"
+					"weapon"	"weapon_no36"
+					"weapon"	"weapon_no36"
+					"gear"	"commonwealth_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_12thfrontier_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_12thfrontier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_commonwealth_12thfrontier_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"english"
+			"unit"	"unit_commonwealth_12thfrontier"
+			
+			"models"
+			{
+				"player"	"models/characters/british/player_british_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_short_brit.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no36"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_enfield_bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_wehrmacht_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_wehrmacht"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_wehrmacht_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_wehrmacht"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_1stinfantry_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_1stinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_1stinfantry_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_1stinfantry"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_352infanterie_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_352infanterie"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_352infanterie_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_352infanterie"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_1stpanzer_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_1stpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_1stpanzer_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_1stpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_3rdpanzer_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_3rdpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_3rdpanzer_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_3rdpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_15thpanzer_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_15thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_15thpanzer_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_15thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_17thpanzer_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_17thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_17thpanzer_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_17thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_29thpanzer_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_29thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_29thpanzer_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_29thpanzer"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_fallschirmjager_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_fallschirmjager"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_fg42_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_fg42"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_fg42_access"
+				{
+					"weapon"	"weapon_fg42"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_fallschirmjager_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_fallschirmjager"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_3rdfallschirmjager_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_3rdfallschirmjager"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_fg42_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_fg42"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_fg42_access"
+				{
+					"weapon"	"weapon_fg42"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_3rdfallschirmjager_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_3rdfallschirmjager"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_272grenadier_01"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_272grenadier"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+		
+		"template_german_272grenadier_02"
+		{
+			"elite_bot_only"	"1"
+			"icon"	"coop"
+			"response_rules_key"	"german01"
+			"unit"	"unit_german_272grenadier"
+			
+			"models"
+			{
+				"player"	"models/characters/german/player_german_01.mdl"
+				"viewmodel_hands"	"models/weapons/v_hands_ger.mdl"
+				
+				"bodygroups"
+				{
+					"kit"	"0"
+					"backpack"	"0"
+				}
+			}
+			
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"german_heavy_kit"
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_k98bayonet"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	"german_heavy_kit"
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_stielhandgranate"
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_k98bayonet"	"-100"
+				}
+			}
+		}
+	}
+	
+	"unlocks"
+	{
+		"unit_american_usarmy"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_1stinfantry"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet_net.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet_net.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_3rddivision"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_28thdivision"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_29thinfantry"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_ranger"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_2ndrangers"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet_net.mdl"
+						
+						"bodygroups"
+						{
+							"decals"	"6"
+						}
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet_net.mdl"
+						
+						"bodygroups"
+						{
+							"decals"	"6"
+						}
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_82ndairborne"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_officer_helmet_camo.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_officer_helmet_camo.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_helmet_camo.mdl"
+						"model"	"models/characters/american/player_american_airborne_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_helmet_camo.mdl"
+						"model"	"models/characters/american/player_american_airborne_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_101stairborne"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_officer_helmet_net.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_airborne_officer_helmet_net.mdl"
+					}
+					
+					"template_american_communications_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_02.mdl"
+					}
+					
+					"template_american_rifleman_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_06.mdl"
+					}
+					
+					"template_american_assault_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_01.mdl"
+					}
+					
+					"template_american_support_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_04.mdl"
+					}
+					
+					"template_american_flamethrower_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_08.mdl"
+					}
+					
+					"template_american_engineer_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_09.mdl"
+					}
+					
+					"template_american_machinegunner_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_05.mdl"
+					}
+					
+					"template_american_sniper_coop"
+					{
+						"model"	"models/characters/american/player_american_airborne_03.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_american_92ndinfantry"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_american_general_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+					
+					"template_american_officer_coop"
+					{
+						"helmet"	"models/characters/american/american_officer_helmet.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_british"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_grenadier"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_cap_officer_grenadier.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_cap_officer_grenadier.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_fusilier"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_cap_officer_fusiliers.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_cap_officer_fusiliers.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_highlander"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_glengarry.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_glengarry.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_no2commando"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_commando.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_commando.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_blackwatch"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_glengarry_blackwatch.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_glengarry_blackwatch.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_canada"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_argyll"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_canadian_glengarry.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_canadian_glengarry.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_seaforth"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_balmoral_seaforth.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_balmoral_seaforth.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_princess_patricia"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_princess.mdl"
+						
+						"bodygroups"
+						{
+							"decals"	"0"
+						}
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_princess.mdl"
+						
+						"bodygroups"
+						{
+							"decals"	"0"
+						}
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_royal_hamilton"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_hamilton.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_hamilton.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_loyal_edmonton"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_edmonton.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/british_beret_canadian_edmonton.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_01.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_01.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_australian"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"helmet"	"models/characters/british/australian_hat_generic.mdl"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"helmet"	"models/characters/british/australian_hat_generic.mdl"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_17thaustralian"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_communications_coop"
+					{
+						"model"	"models/characters/british/player_british_02.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"model"	"models/characters/british/player_british_05.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_05.mdl"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"model"	"models/characters/british/player_british_04.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_04.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"model"	"models/characters/british/player_british_07.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_07.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"model"	"models/characters/british/player_british_06.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_06.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"model"	"models/characters/british/player_british_03.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_03.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"model"	"models/characters/british/player_british_09.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_09.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"model"	"models/characters/british/player_british_08.mdl"
+						"model_cold"	"models/characters/british/player_british_alt_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_commonwealth_12thfrontier"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_british_general_coop"
+					{
+						"uniform"	"models/player/british/british_gear_indian_orange"
+					}
+					
+					"template_british_officer_coop"
+					{
+						"uniform"	"models/player/british/british_gear_indian_orange"
+					}
+					
+					"template_british_communications_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_rifleman_coop"
+					{
+						"uniform"	"models/player/british/british_gear_indian_blue"
+					}
+					
+					"template_british_assault_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_support_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_flamethrower_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_engineer_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_machinegunner_coop"
+					{
+						"helmet"	"models/characters/british/british_helmet.mdl"
+						"model"	"models/characters/british/units/player_indian_02.mdl"
+						"model_cold"	"models/characters/british/units/player_indian_alt_02.mdl"
+					}
+					
+					"template_british_sniper_coop"
+					{
+						"uniform"	"models/player/british/british_gear_indian_olive"
+					}
+				}
+			}
+		}
+		
+		"unit_german_wehrmacht"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_wehrmacht_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_1stinfantry"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_1stinfantry_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_sidecap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_sidecap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_07.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_352infanterie"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_352infanterie_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_sidecap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_sidecap_wehrmacht.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_07.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_1stpanzer"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_1stpanzer_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_eruption_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_eruption_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_08.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_eruption"
+					}
+				}
+			}
+		}
+		
+		"unit_german_3rdpanzer"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_3rdpanzer_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_grassland_white_shirt"
+						"viewmodel_skin"	"5"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_grassland_white_shirt"
+						"viewmodel_skin"	"5"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_08.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_snow"
+						"viewmodel_skin"	"5"
+					}
+				}
+			}
+		}
+		
+		"unit_german_15thpanzer"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_15thpanzer_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_tundra_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_tundra_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_08.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_tundra"
+					}
+				}
+			}
+		}
+		
+		"unit_german_17thpanzer"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_17thpanzer_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_pink_swamp_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_panzer.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_pink_swamp_black_shirt"
+						"viewmodel_skin"	"0"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/units/player_german_panzer_08.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_pink_swamp"
+					}
+				}
+			}
+		}
+		
+		"unit_german_29thpanzer"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_29thpanzer_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_tropical.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_cap_tropical.mdl"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_07.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_fallschirmjager"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_fallschirmjager_01"
+					{
+						"?has_fg42_access"
+						{
+							"bodygroups"
+							{
+								"pouches"	"2"
+							}
+						}
+					}
+					
+					"template_german_fallschirmjager_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_3rdfallschirmjager"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_3rdfallschirmjager_01"
+					{
+						"?has_fg42_access"
+						{
+							"bodygroups"
+							{
+								"pouches"	"2"
+							}
+						}
+					}
+					
+					"template_german_3rdfallschirmjager_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_01.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_paratrooper_08.mdl"
+					}
+				}
+			}
+		}
+		
+		"unit_german_272grenadier"
+		{
+			"Character"
+			{
+				"class_replacements"
+				{
+					"template_german_272grenadier_02"
+					{
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_general_coop"
+					{
+						"helmet"	"models/characters/german/german_fieldcap.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_coniferous"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_officer_coop"
+					{
+						"helmet"	"models/characters/german/german_fieldcap.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_coniferous"
+						
+						"bodygroups"
+						{
+							"patch"	"2"
+						}
+					}
+					
+					"template_german_communications_coop"
+					{
+						"model"	"models/characters/german/player_german_06.mdl"
+					}
+					
+					"template_german_rifleman_coop"
+					{
+						"helmet"	"models/characters/german/german_helmet.mdl"
+						"model"	"models/characters/german/player_german_07.mdl"
+					}
+					
+					"template_german_assault_coop"
+					{
+						"helmet"	"models/characters/german/german_helmet.mdl"
+						"model"	"models/characters/german/player_german_02.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_support_coop"
+					{
+						"model"	"models/characters/german/player_german_03.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_flamethrower_coop"
+					{
+						"helmet"	"models/characters/german/german_helmet.mdl"
+						"model"	"models/characters/german/player_german_09.mdl"
+					}
+					
+					"template_german_engineer_coop"
+					{
+						"helmet"	"models/characters/german/german_helmet.mdl"
+						"model"	"models/characters/german/player_german_05.mdl"
+					}
+					
+					"template_german_machinegunner_coop"
+					{
+						"model"	"models/characters/german/player_german_04.mdl"
+						
+						"bodygroups"
+						{
+							"pouches"	"2"
+						}
+					}
+					
+					"template_german_sniper_coop"
+					{
+						"model"	"models/characters/german/player_german_08.mdl"
+						"uniform"	"models/player/german/camouflage/german_camo_coniferous"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,174 @@
+"#base"	"custom.theater"
+"#base"	"custom_coop_classes.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_american_communications"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_m1garand"
+				"weapon"	"weapon_m3greasegun"
+				"weapon"	"weapon_smoke"
+				"weapon_upgrade"	"default_bayonet"
+				"gear"	"gear_radio"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m3greasegun"	"2"
+				}
+			}
+		}
+		
+		"template_american_rifleman"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_m1garand"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"underbarrel_rifle_grenade_springfield"
+				"gear"	"gear_radio"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1carbine"	"2"
+				}
+			}
+		}
+		
+		"template_american_sniper"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_m1garand"
+				"weapon_upgrade"	"optic_scope_4x"
+				"weapon_upgrade"	"optic_scope_7x"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_m1garand"	"2"
+				}
+			}
+		}
+		
+		"template_british_communications"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no77"
+				"weapon"	"weapon_no79"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"default_bayonet_spike"
+				"gear"	"gear_radio_commonwealth"
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_sten_mk2"	"2"
+				}
+			}
+		}
+		
+		"template_british_rifleman"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_welrod"
+				"weapon"	"weapon_no69"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"default_bayonet_spike"
+				"weapon_upgrade"	"underbarrel_rifle_grenade"
+				"gear"	"gear_radio_commonwealth"
+			}
+		}
+		
+		"template_british_assault"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_sten_mk5"
+				"weapon"	"weapon_thompson_m1928a1"
+				"weapon"	"weapon_welrod"
+				"weapon"	"weapon_no79"
+				"weapon"	"weapon_no69"
+				"weapon"	"weapon_tnt"
+				"weapon_upgrade"	"barrel_silencer"
+				"weapon_upgrade"	"default_bayonet"
+				"gear"	"gear_radio_commonwealth"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+			
+			"cost_modifiers"
+			{
+				"weapon"
+				{
+					"weapon_owen"	"-2"
+					"weapon_sten_mk5"	"-2"
+				}
+				
+				"weapon_upgrade"
+				{
+					"barrel_greased_bolt"	"-1"
+				}
+			}
+		}
+		
+		"template_german_communications"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_p38"
+				"weapon"	"weapon_ppk"
+				"weapon"	"weapon_nebelhandgranate"
+				"weapon"	"weapon_splintering"
+				"weapon_upgrade"	"default_bayonet"
+				"gear"	"gear_radio_german"
+			}
+		}
+		
+		"template_german_rifleman"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_p38"
+				"weapon"	"weapon_splintering"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"underbarrel_rifle_grenade_k98"
+				"gear"	"gear_radio_german"
+			}
+		}
+	}
+}

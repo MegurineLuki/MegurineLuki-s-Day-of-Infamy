@@ -1,0 +1,213 @@
+"#base"	"custom_coop_shared.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_american_officer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_brassknuckles"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon"	"weapon_m1911"
+				"weapon"	"weapon_binoculars_american"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_m1garand"
+				"weapon"	"weapon_thompson_m1a1"
+				"weapon_upgrade"	"default_bayonet"
+			}
+		}
+		
+		"template_american_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_mk2"
+				"gear"	"american_light_kit"
+				"gear"	"gear_radio"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_m1garand"
+				"weapon"	"weapon_m3greasegun"
+				"weapon_upgrade"	"default_bayonet"
+				"gear"	"gear_radio"
+			}
+		}
+		
+		"template_american_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+				"weapon"	"weapon_bar"
+				"weapon"	"weapon_mk2"
+				"gear"	""
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_bar"
+			}
+		}
+		
+		"template_british_officer"
+		{
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_sten_mk5"
+				"weapon"	"weapon_thompson_m1928a1"
+				"weapon"	"weapon_welrod"
+				"weapon"	"weapon_no69"
+				"weapon_upgrade"	"barrel_silencer"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"default_bayonet_spike"
+				
+				"?has_owen_access"
+				{
+					"weapon"	"weapon_owen"
+				}
+			}
+		}
+		
+		"template_british_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_no36"
+				"gear"	"commonwealth_light_kit"
+				"gear"	"gear_radio_commonwealth"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_ithaca"
+				"weapon"	"weapon_sten_mk2"
+				"weapon"	"weapon_no77"
+				"weapon_upgrade"	"default_bayonet"
+				"weapon_upgrade"	"default_bayonet_spike"
+				"gear"	"gear_radio_commonwealth"
+			}
+		}
+		
+		"template_british_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+				"weapon"	"weapon_bren_mk2"
+				"weapon"	"weapon_no36"
+				"gear"	""
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_bren_mk2"
+				"weapon"	"weapon_lewis"
+			}
+		}
+		
+		"template_german_officer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_luger"
+				"weapon"	"weapon_stielhandgranate"
+				"weapon"	"weapon_binoculars_german"
+				"gear"	""
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_luger"
+				"weapon"	"weapon_c96"
+				"weapon"	"weapon_splintering"
+				"weapon_upgrade"	"default_bayonet"
+			}
+		}
+		
+		"template_german_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	"gear_radio_german"
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_mp40"
+				"weapon"	"weapon_g43"
+				"weapon"	"weapon_p38"
+				"weapon"	"weapon_ppk"
+				"weapon"	"weapon_splintering"
+				"weapon_upgrade"	"default_bayonet"
+				"gear"	"gear_radio_german"
+			}
+		}
+		
+		"template_german_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"weapon"	"weapon_mg34"
+				"weapon"	"weapon_stielhandgranate"
+				"gear"	""
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_etool"
+					"weapon"	"weapon_stg44"
+					"weapon"	"weapon_stielhandgranate"
+					"gear"	""
+				}
+			}
+			
+			"allowed_items"
+			{
+				"weapon"	"weapon_mg34"
+				"weapon"	"weapon_p38"
+				"weapon"	"weapon_ppk"
+				"weapon_upgrade"	"optic_scope_4x"
+				
+				"?has_fg42_access"
+				{
+					"weapon"	"weapon_fg42"
+				}
+				
+				"?has_stg44_access"
+				{
+					"weapon"	"weapon_stg44"
+				}
+			}
+		}
+	}
+}

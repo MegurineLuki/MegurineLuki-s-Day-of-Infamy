@@ -1,0 +1,320 @@
+"#base"	"default_weapon_upgrades.theater"
+
+"theater"
+{
+	"weapon_upgrades"
+	{
+		"magazine_speedloader"
+		{
+			"upgrade_cost"	"1"
+		}
+		
+		"magazine_stripper_clips"
+		{
+			"upgrade_cost"	"1"
+		}
+		
+		"magazine_extended_c96"
+		{
+			"upgrade_cost"	"3"
+		}
+		
+		"magazine_extended_thompson_30rd"
+		{
+			"upgrade_cost"	"1"
+		}
+		
+		"magazine_extended_thompson_50rd"
+		{
+			"upgrade_cost"	"3"
+			"weight"	"64"
+		}
+		
+		"optic_scope_4x"
+		{
+			"upgrade_cost"	"4"
+			
+			"weapon_mods"
+			{
+				"weapon_fg42"
+				{
+					"closed_bolt"	"0"
+					
+					"sway"
+					{
+						"sway_amount_focus_frac"	"0.25"
+						"sway_radius_crouch_frac"	"0.75"
+						"sway_radius_prone_frac"	"0.50"
+						"sway_speed_focus_frac"	"0.20"
+					}
+				}
+				
+				"weapon_m1garand"
+				{
+					"closed_bolt"	"0"
+					
+					"sway"
+					{
+						"sway_amount_focus_frac"	"0.25"
+						"sway_radius_crouch_frac"	"0.75"
+						"sway_radius_prone_frac"	"0.50"
+						"sway_speed_focus_frac"	"0.20"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"Scope_kar98"
+				{
+					"model"	"models/weapons/upgrades/w_optic_kar98k.mdl"
+					
+					"weapons"
+					{
+						"weapon"	"weapon_k98"
+					}
+				}
+			}
+		}
+		
+		"optic_scope_7x"
+		{
+			"upgrade_cost"	"3"
+			
+			"weapon_mods"
+			{
+				"weapon_enfield"
+				{
+					"closed_bolt"	"0"
+				}
+				
+				"weapon_k98"
+				{
+					"closed_bolt"	"0"
+				}
+				
+				"weapon_springfield"
+				{
+					"closed_bolt"	"0"
+				}
+			}
+		}
+		
+		"default_optics"
+		{
+			"upgrade_cost"	"2"
+			
+			"allowed_weapons"
+			{
+				"weapon"	"weapon_m1carbine"
+				"weapon"	"weapon_m1paratrooper"
+				"weapon"	"weapon_thompson_m1a1"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"default_irons_m1a1"
+				{
+					"weapons"
+					{
+						"weapon"	"weapon_m1carbine"
+						"weapon"	"weapon_m1paratrooper"
+					}
+				}
+			}
+			
+			"world_attachments"
+			{
+				"default_irons_m1a1"
+				{
+					"model"	"models/weapons/upgrades/w_iron_m1a1_s.mdl"
+					
+					"weapons"
+					{
+						"weapon"	"weapon_m1carbine"
+						"weapon"	"weapon_m1paratrooper"
+					}
+				}
+			}
+		}
+		
+		"barrel_silencer"
+		{
+			"length"	"8"
+			"upgrade_cost"	"6"
+		}
+		
+		"barrel_greased_bolt"
+		{
+			"upgrade_cost"	"2"
+		}
+		
+		"underbarrel_foregrip"
+		{
+			"upgrade_cost"	"3"
+			
+			"world_attachments"
+			{
+				"gesture"	"ACT_GESTURE_FOREGRIP"
+			}
+		}
+		
+		"underbarrel_bipod"
+		{
+			"upgrade_cost"	"2"
+		}
+		
+		"underbarrel_rifle_grenade_springfield"
+		{
+			"upgrade_cost"	"6"
+		}
+		
+		"underbarrel_rifle_grenade"
+		{
+			"upgrade_cost"	"6"
+		}
+		
+		"underbarrel_rifle_grenade_k98"
+		{
+			"upgrade_cost"	"6"
+		}
+		
+		"default_bayonet"
+		{
+			"length"	"8"
+			"upgrade_cost"	"2"
+			"lock_slot"	""
+			
+			"world_attachments"
+			{
+				"bayonet_enfield"
+				{
+					"weapons"
+					{
+						"weapon"	"weapon_enfield"
+						"weapon"	"weapon_sten_mk5"
+					}
+				}
+				
+				"bayonet_m1carbine"
+				{
+					"weapons"
+					{
+						"weapon"	"weapon_m1carbine"
+						"weapon"	"weapon_m1paratrooper"
+					}
+				}
+			}
+		}
+		
+		"default_bayonet_spike"
+		{
+			"length"	"8"
+			"upgrade_cost"	"2"
+			"lock_slot"	""
+		}
+		
+		"default_sling"
+		{
+			"upgrade_cost"	"1"
+			
+			"recoil"
+			{
+				"recoil_vertical_frac"	"1.0"
+			}
+			
+			"sway"
+			{
+				"sway_speed_frac"	"1.0"
+			}
+			
+			"viewmodel_attachments"
+			{
+				"bar_sling"
+				{
+					"model"	""
+				}
+				
+				"bren_sling"
+				{
+					"model"	""
+				}
+				
+				"c96_sling"
+				{
+					"model"	""
+				}
+				
+				"enfield_sling"
+				{
+					"model"	""
+				}
+				
+				"fg42_sling"
+				{
+					"model"	""
+				}
+				
+				"g43_sling"
+				{
+					"model"	""
+				}
+				
+				"garand_sling"
+				{
+					"model"	""
+				}
+				
+				"ithaca_sling"
+				{
+					"model"	""
+				}
+				
+				"k98_sling"
+				{
+					"model"	""
+				}
+				
+				"m1carbine_sling"
+				{
+					"model"	""
+				}
+				
+				"m3_sling"
+				{
+					"model"	""
+				}
+				
+				"owen_sling"
+				{
+					"model"	""
+				}
+				
+				"springfield_sling"
+				{
+					"model"	""
+				}
+				
+				"sten_mk2_sling"
+				{
+					"model"	""
+				}
+				
+				"sten_mp40"
+				{
+					"model"	""
+				}
+				
+				"stg44_sling"
+				{
+					"model"	""
+				}
+				
+				"thompson_m1a1_sling"
+				{
+					"model"	""
+				}
+			}
+		}
+	}
+}

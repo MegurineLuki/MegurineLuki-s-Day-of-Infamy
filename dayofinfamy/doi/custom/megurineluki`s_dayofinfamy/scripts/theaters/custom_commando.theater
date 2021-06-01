@@ -1,0 +1,20 @@
+"#base"	"custom_classic.theater"
+
+"theater"
+{
+	"weapons"
+	{
+		"weapon_welrod"
+		{
+			"class_restricted"	"0"
+		}
+	}
+	
+	"weapon_upgrades"
+	{
+		"barrel_silencer"
+		{
+			"class_restricted"	"0"
+		}
+	}
+}

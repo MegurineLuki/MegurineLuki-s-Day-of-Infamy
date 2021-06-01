@@ -1,0 +1,21 @@
+"#base"	"default_player.theater"
+
+"theater"
+{
+	"player_settings"
+	{
+		"damage"
+		{
+			"DamageHitgroups"
+			{
+				"HITGROUP_HEAD"	"4.00"
+				"HITGROUP_CHEST"	"2.00"
+				"HITGROUP_STOMACH"	"1.50"
+				"HITGROUP_LEFTARM"	"0.70"
+				"HITGROUP_RIGHTARM"	"0.75"
+				"HITGROUP_LEFTLEG"	"0.50"
+				"HITGROUP_RIGHTLEG"	"0.55"
+			}
+		}
+	}
+}

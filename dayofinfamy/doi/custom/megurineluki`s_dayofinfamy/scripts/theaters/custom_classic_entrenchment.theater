@@ -1,0 +1,653 @@
+"#base"	"custom_classic.theater"
+
+"theater"
+{
+	"firesupport"
+	{
+		"?entrenchment_TEAM_ONE_attack"
+		{
+			"firesupport_strafe"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_rocketrun"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_artillery_he_allies"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_artillery_smoke_allies"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_artillery_incendiary"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_carpet_bomb_americans"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_carpet_bomb_commonwealth"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+		}
+		
+		"?entrenchment_TEAM_TWO_attack"
+		{
+			"firesupport_stuka"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_artillery_he_axis"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_artillery_smoke_axis"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+			
+			"firesupport_carpet_bomb_axis"
+			{
+				"Params"
+				{
+					"Cooldown"	"0"
+				}
+			}
+		}
+	}
+	
+	"teams"
+	{
+		"americans"
+		{
+			"?entrenchment_TEAM_ONE_defend"
+			{
+				"squads"
+				{
+					"#squad_american"
+					{
+						"size"	"20"
+						"ai_squad"	"0"
+						"human_squad"	"1"
+						
+						"classes"
+						{
+							"template_american_officer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_communications"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_rifleman"	"-1"
+							
+							"template_american_assault"
+							{
+								"min"	"2"
+								"max"	"3"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_support"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_flamethrower"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_engineer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_machinegunner"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_american_sniper"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+						}
+					}
+					
+					"#squad_american"
+					{
+						"size"	"20"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_american_officer_coop"	"1"
+							"template_american_communications_coop"	"1"
+							"template_american_rifleman_coop"	"-1"
+							"template_american_assault_coop"	"2"
+							"template_american_support_coop"	"1"
+							"template_american_flamethrower_coop"	"1"
+							"template_american_engineer_coop"	"1"
+							"template_american_machinegunner_coop"	"1"
+							"template_american_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+			
+			"?entrenchment_TEAM_ONE_attack"
+			{
+				"squads"
+				{
+					"#squad_american"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_american_officer_coop"	"1"
+							"template_american_communications_coop"	"1"
+							"template_american_rifleman_coop"	"3"
+							"template_american_assault_coop"	"2"
+							"template_american_support_coop"	"1"
+							"template_american_flamethrower_coop"	"1"
+							"template_american_engineer_coop"	"1"
+							"template_american_machinegunner_coop"	"1"
+							"template_american_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_american"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_american_officer_coop"	"1"
+							"template_american_communications_coop"	"1"
+							"template_american_rifleman_coop"	"3"
+							"template_american_assault_coop"	"2"
+							"template_american_support_coop"	"1"
+							"template_american_flamethrower_coop"	"1"
+							"template_american_engineer_coop"	"1"
+							"template_american_machinegunner_coop"	"1"
+							"template_american_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_american"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_american_officer_coop"	"1"
+							"template_american_communications_coop"	"1"
+							"template_american_rifleman_coop"	"3"
+							"template_american_assault_coop"	"2"
+							"template_american_support_coop"	"1"
+							"template_american_flamethrower_coop"	"1"
+							"template_american_engineer_coop"	"1"
+							"template_american_machinegunner_coop"	"1"
+							"template_american_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_american"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_american_officer_coop"	"1"
+							"template_american_communications_coop"	"1"
+							"template_american_rifleman_coop"	"3"
+							"template_american_assault_coop"	"2"
+							"template_american_support_coop"	"1"
+							"template_american_flamethrower_coop"	"1"
+							"template_american_engineer_coop"	"1"
+							"template_american_machinegunner_coop"	"1"
+							"template_american_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+		}
+		
+		"commonwealth"
+		{
+			"?entrenchment_TEAM_ONE_defend"
+			{
+				"squads"
+				{
+					"#squad_commonwealth"
+					{
+						"size"	"20"
+						"ai_squad"	"0"
+						"human_squad"	"1"
+						
+						"classes"
+						{
+							"template_british_officer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_communications"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_rifleman"	"-1"
+							
+							"template_british_assault"
+							{
+								"min"	"2"
+								"max"	"3"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_support"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_flamethrower"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_engineer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_machinegunner"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_british_sniper"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+						}
+					}
+					
+					"#squad_commonwealth"
+					{
+						"size"	"20"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_british_officer_coop"	"1"
+							"template_british_communications_coop"	"1"
+							"template_british_rifleman_coop"	"-1"
+							"template_british_assault_coop"	"2"
+							"template_british_support_coop"	"1"
+							"template_british_flamethrower_coop"	"1"
+							"template_british_engineer_coop"	"1"
+							"template_british_machinegunner_coop"	"1"
+							"template_british_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+			
+			"?entrenchment_TEAM_ONE_attack"
+			{
+				"squads"
+				{
+					"#squad_commonwealth"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_british_officer_coop"	"1"
+							"template_british_communications_coop"	"1"
+							"template_british_rifleman_coop"	"3"
+							"template_british_assault_coop"	"2"
+							"template_british_support_coop"	"1"
+							"template_british_flamethrower_coop"	"1"
+							"template_british_engineer_coop"	"1"
+							"template_british_machinegunner_coop"	"1"
+							"template_british_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_commonwealth"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_british_officer_coop"	"1"
+							"template_british_communications_coop"	"1"
+							"template_british_rifleman_coop"	"3"
+							"template_british_assault_coop"	"2"
+							"template_british_support_coop"	"1"
+							"template_british_flamethrower_coop"	"1"
+							"template_british_engineer_coop"	"1"
+							"template_british_machinegunner_coop"	"1"
+							"template_british_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_commonwealth"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_british_officer_coop"	"1"
+							"template_british_communications_coop"	"1"
+							"template_british_rifleman_coop"	"3"
+							"template_british_assault_coop"	"2"
+							"template_british_support_coop"	"1"
+							"template_british_flamethrower_coop"	"1"
+							"template_british_engineer_coop"	"1"
+							"template_british_machinegunner_coop"	"1"
+							"template_british_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_commonwealth"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_british_officer_coop"	"1"
+							"template_british_communications_coop"	"1"
+							"template_british_rifleman_coop"	"3"
+							"template_british_assault_coop"	"2"
+							"template_british_support_coop"	"1"
+							"template_british_flamethrower_coop"	"1"
+							"template_british_engineer_coop"	"1"
+							"template_british_machinegunner_coop"	"1"
+							"template_british_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+		}
+		
+		"axis"
+		{
+			"?entrenchment_TEAM_TWO_defend"
+			{
+				"squads"
+				{
+					"#squad_german"
+					{
+						"size"	"20"
+						"ai_squad"	"0"
+						"human_squad"	"1"
+						
+						"classes"
+						{
+							"template_german_officer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_communications"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_rifleman"	"-1"
+							
+							"template_german_assault"
+							{
+								"min"	"2"
+								"max"	"3"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_support"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_flamethrower"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_engineer"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_machinegunner"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+							
+							"template_german_sniper"
+							{
+								"min"	"1"
+								"max"	"2"
+								"max_threshold"	"12"
+							}
+						}
+					}
+					
+					"#squad_german"
+					{
+						"size"	"20"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_german_officer_coop"	"1"
+							"template_german_communications_coop"	"1"
+							"template_german_rifleman_coop"	"-1"
+							"template_german_assault_coop"	"2"
+							"template_german_support_coop"	"1"
+							"template_german_flamethrower_coop"	"1"
+							"template_german_engineer_coop"	"1"
+							"template_german_machinegunner_coop"	"1"
+							"template_german_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+			
+			"?entrenchment_TEAM_TWO_attack"
+			{
+				"squads"
+				{
+					"#squad_german"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_german_officer_coop"	"1"
+							"template_german_communications_coop"	"1"
+							"template_german_rifleman_coop"	"3"
+							"template_german_assault_coop"	"2"
+							"template_german_support_coop"	"1"
+							"template_german_flamethrower_coop"	"1"
+							"template_german_engineer_coop"	"1"
+							"template_german_machinegunner_coop"	"1"
+							"template_german_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_german"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_german_officer_coop"	"1"
+							"template_german_communications_coop"	"1"
+							"template_german_rifleman_coop"	"3"
+							"template_german_assault_coop"	"2"
+							"template_german_support_coop"	"1"
+							"template_german_flamethrower_coop"	"1"
+							"template_german_engineer_coop"	"1"
+							"template_german_machinegunner_coop"	"1"
+							"template_german_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_german"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_german_officer_coop"	"1"
+							"template_german_communications_coop"	"1"
+							"template_german_rifleman_coop"	"3"
+							"template_german_assault_coop"	"2"
+							"template_german_support_coop"	"1"
+							"template_german_flamethrower_coop"	"1"
+							"template_german_engineer_coop"	"1"
+							"template_german_machinegunner_coop"	"1"
+							"template_german_sniper_coop"	"1"
+						}
+					}
+					
+					"#squad_german"
+					{
+						"size"	"12"
+						"ai_squad"	"1"
+						"human_squad"	"0"
+						
+						"classes"
+						{
+							"template_german_officer_coop"	"1"
+							"template_german_communications_coop"	"1"
+							"template_german_rifleman_coop"	"3"
+							"template_german_assault_coop"	"2"
+							"template_german_support_coop"	"1"
+							"template_german_flamethrower_coop"	"1"
+							"template_german_engineer_coop"	"1"
+							"template_german_machinegunner_coop"	"1"
+							"template_german_sniper_coop"	"1"
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,273 @@
+"#base"	"custom_classic.theater"
+
+"theater"
+{
+	"player_templates"
+	{
+		"template_american_officer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+				"weapon"	"weapon_binoculars_american"
+			}
+		}
+		
+		"template_american_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+				"gear"	"gear_radio"
+			}
+		}
+		
+		"template_american_rifleman"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+				"gear"	""
+			}
+		}
+		
+		"template_american_assault"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+				"gear"	""
+			}
+		}
+		
+		"template_american_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+				"gear"	""
+			}
+		}
+		
+		"template_american_flamethrower"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+				"gear"	""
+			}
+		}
+		
+		"template_american_engineer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+			}
+		}
+		
+		"template_american_machinegunner"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_us"
+			}
+		}
+		
+		"template_american_sniper"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_garand_bayonet"
+				"weapon"	"weapon_springfield"
+				"weapon_upgrade"	""
+			}
+		}
+		
+		"template_british_officer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon"	"weapon_binoculars_british"
+			}
+		}
+		
+		"template_british_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"gear"	"gear_radio_commonwealth"
+			}
+		}
+		
+		"template_british_rifleman"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	""
+				"gear"	""
+			}
+		}
+		
+		"template_british_assault"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+				"gear"	""
+			}
+		}
+		
+		"template_british_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+				"gear"	""
+			}
+		}
+		
+		"template_british_flamethrower"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+				"gear"	""
+			}
+		}
+		
+		"template_british_engineer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	""
+			}
+		}
+		
+		"template_british_machinegunner"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool_brit"
+			}
+		}
+		
+		"template_british_sniper"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_enfield_bayonet"
+				"weapon"	"weapon_enfield"
+				"weapon_upgrade"	""
+			}
+		}
+		
+		"template_german_officer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon"	"weapon_binoculars_german"
+				"gear"	""
+			}
+		}
+		
+		"template_german_communications"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"gear"	"gear_radio_german"
+			}
+		}
+		
+		"template_german_rifleman"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon_upgrade"	""
+				"gear"	""
+			}
+		}
+		
+		"template_german_assault"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"gear"	""
+			}
+		}
+		
+		"template_german_support"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"gear"	""
+			}
+			
+			"?has_stg44_access"
+			{
+				"buy_order"
+				{
+					"weapon"	"weapon_etool"
+					"gear"	""
+				}
+			}
+		}
+		
+		"template_german_flamethrower"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+				"gear"	""
+			}
+		}
+		
+		"template_german_engineer"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon_upgrade"	""
+			}
+		}
+		
+		"template_german_machinegunner"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_etool"
+			}
+		}
+		
+		"template_german_sniper"
+		{
+			"buy_order"
+			{
+				"weapon"	"weapon_k98bayonet"
+				"weapon"	"weapon_k98"
+				"weapon_upgrade"	""
+			}
+		}
+	}
+}
