@@ -542,7 +542,7 @@
 		
 		"weapon_sten_mk5"
 		{
-			"weapon_cost"	"6"
+			"weapon_cost"	"4"
 			"weapon_weight"	"64"
 			
 			"ammo_clip"
@@ -559,7 +559,7 @@
 		
 		"weapon_owen"
 		{
-			"weapon_cost"	"6"
+			"weapon_cost"	"4"
 			"weapon_weight"	"64"
 			
 			"ammo_clip"

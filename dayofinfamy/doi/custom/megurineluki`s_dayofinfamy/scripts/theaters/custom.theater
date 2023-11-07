@@ -125,6 +125,11 @@
 				"weapon"	"weapon_thompson_m1a1"
 				"weapon"	"weapon_smoke"
 				"weapon_upgrade"	"default_bayonet"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
 			}
 			
 			"cost_modifiers"
@@ -174,6 +179,11 @@
 				"weapon"	"weapon_smoke"
 				"weapon_upgrade"	"default_bayonet"
 				"gear"	"gear_radio"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
 			}
 			
 			"cost_modifiers"
@@ -397,6 +407,11 @@
 				"weapon"	"weapon_tnt"
 				"weapon"	"weapon_bazooka"
 				"weapon_upgrade"	"default_bayonet"
+				
+				"?has_m1para_access"
+				{
+					"weapon"	"weapon_m1paratrooper"
+				}
 			}
 			
 			"cost_modifiers"
@@ -537,8 +552,6 @@
 			{
 				"weapon"
 				{
-					"weapon_owen"	"-2"
-					"weapon_sten_mk5"	"-2"
 					"weapon_binoculars_british"	"-5"
 				}
 			}
@@ -687,7 +700,7 @@
 			{
 				"weapon"	"weapon_ithaca"
 				"weapon"	"weapon_sten_mk2"
-				"weapon"	"weapon_sten_mk5"
+				"weapon"	"weapon_no77"
 				"weapon"	"weapon_no79"
 				"weapon"	"weapon_no69"
 				"weapon"	"weapon_tnt"
@@ -705,6 +718,7 @@
 				"weapon"
 				{
 					"weapon_ithaca"	"-1"
+					"weapon_owen"	"2"
 					"weapon_webley"	"1"
 					"weapon_browninghp"	"2"
 				}
